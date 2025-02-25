@@ -1,0 +1,86 @@
+body {
+    background-image: url(img/background.png);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #2c642c;
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+    width: 150px;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+li {
+    background: rgba(128, 128, 128, 0);
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #d9534f;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
+
+.remover-tarefa {
+    background-color: rgb(172, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.remover-tarefa:hover {
+    background-color: rgb(239, 186, 14);
+    margin-top: 10px;
+}
+
+#introducao {
+    background-color: rgb(80, 80, 80);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 15px;
+}
